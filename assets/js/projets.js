@@ -13,7 +13,7 @@ const projects = {
         location: "Abidjan, Côte d'Ivoire",
 
         image:
-            "/assets/images/hero.jpg",
+            "../assets/images/hero.jpg",
 
         description:
             "Présentation du projet et des travaux réalisés par Expert12. Cette description pourra être remplacée par les informations réelles du projet."
@@ -30,7 +30,7 @@ const projects = {
         location: "Abidjan, Côte d'Ivoire",
 
         image:
-            "/assets/images/hero.jpg",
+            "../assets/images/hero.jpg",
 
         description:
             "Présentation du projet de construction métallique et des différentes prestations réalisées par Expert12."
@@ -47,7 +47,7 @@ const projects = {
         location: "Abidjan, Côte d'Ivoire",
 
         image:
-            "/assets/images/hero.jpg",
+            "../assets/images/hero.jpg",
 
         description:
             "Présentation du projet électrique et des différentes interventions réalisées."
@@ -64,7 +64,7 @@ const projects = {
         location: "Abidjan, Côte d'Ivoire",
 
         image:
-            "/assets/images/hero.jpg",
+            "../assets/images/hero.jpg",
 
         description:
             "Présentation du projet de télécommunication réalisé par Expert12."
@@ -81,7 +81,7 @@ const projects = {
         location: "Abidjan, Côte d'Ivoire",
 
         image:
-            "/assets/images/hero.jpg",
+            "../assets/images/hero.jpg",
 
         description:
             "Présentation du projet hydraulique et des prestations réalisées."
@@ -98,7 +98,7 @@ const projects = {
         location: "Abidjan, Côte d'Ivoire",
 
         image:
-            "/assets/images/hero.jpg",
+            "../assets/images/hero.jpg",
 
         description:
             "Présentation du projet informatique réalisé par Expert12."
@@ -115,7 +115,7 @@ const projects = {
         location: "Abidjan, Côte d'Ivoire",
 
         image:
-            "/assets/images/hero.jpg",
+            "../assets/images/hero.jpg",
 
         description:
             "Présentation du projet solaire et des solutions mises en place."
@@ -132,7 +132,7 @@ const projects = {
         location: "Abidjan, Côte d'Ivoire",
 
         image:
-            "/assets/images/hero.jpg",
+            "../assets/images/hero.jpg",
 
         description:
             "Présentation du projet BTP et des travaux réalisés par Expert12."

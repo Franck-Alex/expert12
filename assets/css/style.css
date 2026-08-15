@@ -1140,7 +1140,7 @@ body {
             rgba(8, 18, 55, 0.92),
             rgba(8, 18, 55, 0.92)
         ),
-        url("/assets/images/hero.jpg");
+        url("assets/images/hero.jpg");
 
     background-size: cover;
     background-position: center;

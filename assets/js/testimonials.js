@@ -11,11 +11,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
             role: "Client Expert12",
 
-            mainImage: "/assets/images/services/hydraulique.jpg",
+            mainImage: "assets/images/services/hydraulique.jpg",
 
-            secondaryImage: "/assets/images/services/hydraulique.jpg",
+            secondaryImage: "assets/images/services/hydraulique.jpg",
 
-            avatar: "/assets/images/services/btp.jpg"
+            avatar: "assets/images/services/btp.jpg"
         },
 
         {
@@ -27,11 +27,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
             role: "Cliente Expert12",
 
-            mainImage: "/assets/images/services/metallique.jpg",
+            mainImage: "assets/images/services/metallique.jpg",
 
-            secondaryImage: "/assets/images/services/metallique.jpg",
+            secondaryImage: "assets/images/services/metallique.jpg",
 
-            avatar: "/assets/images/services/btp.jpg"
+            avatar: "assets/images/services/btp.jpg"
         },
 
         {
@@ -43,11 +43,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
             role: "Client Expert12",
 
-            mainImage: "/assets/images/services/informatique.jpg",
+            mainImage: "assets/images/services/informatique.jpg",
 
-            secondaryImage: "/assets/images/services/informatique.jpg",
+            secondaryImage: "assets/images/services/informatique.jpg",
 
-            avatar: "/assets/images/services/btp.jpg"
+            avatar: "assets/images/services/btp.jpg"
         }
 
     ];

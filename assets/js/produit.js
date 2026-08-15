@@ -13,7 +13,7 @@ const products = {
         price: "50 000 FCFA",
 
         image:
-            "/assets/images/logo.png",
+            "../assets/images/logo.png",
 
         description:
             "Présentation du produit et de son utilisation. Cette description pourra être remplacée par les informations réelles du produit proposé par Expert12.",
@@ -37,7 +37,7 @@ const products = {
         price: "50 000 FCFA",
 
         image:
-            "/assets/images/logo.png",
+            "../assets/images/logo.png",
 
         description:
             "Présentation du produit de construction métallique et de ses principales utilisations.",
@@ -61,7 +61,7 @@ const products = {
         price: "50 000 FCFA",
 
         image:
-            "/assets/images/logo.png",
+            "../assets/images/logo.png",
 
         description:
             "Produit destiné aux installations électriques et aux différents besoins de vos projets.",
@@ -85,7 +85,7 @@ const products = {
         price: "50 000 FCFA",
 
         image:
-            "/assets/images/logo.png",
+            "../assets/images/logo.png",
 
         description:
             "Produit destiné aux infrastructures et installations de télécommunication.",
@@ -109,7 +109,7 @@ const products = {
         price: "50 000 FCFA",
 
         image:
-            "/assets/images/logo.png",
+            "../assets/images/logo.png",
 
         description:
             "Produit adapté aux installations et différents travaux hydrauliques.",
@@ -133,7 +133,7 @@ const products = {
         price: "50 000 FCFA",
 
         image:
-            "/assets/images/logo.png",
+            "../assets/images/logo.png",
 
         description:
             "Produit destiné aux installations solaires et aux solutions énergétiques.",

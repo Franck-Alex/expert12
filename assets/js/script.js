@@ -7,7 +7,7 @@ const services = {
             "Nous réalisons des travaux de construction adaptés aux besoins de nos clients, avec une attention particulière portée à la qualité et à la durabilité.",
 
         image:
-            "/assets/images/services/btp.jpg",
+            "assets/images/services/btp.jpg",
 
         page:
             "pages/services/btp.html",
@@ -24,7 +24,7 @@ const services = {
             "Nous concevons et réalisons des structures métalliques robustes et adaptées aux projets industriels, commerciaux et résidentiels.",
 
         image:
-            "/assets/images/services/metallique.jpg",
+            "assets/images/services/metallique.jpg",
 
         page:
             "pages/services/metal.html",
@@ -41,7 +41,7 @@ const services = {
             "Nous intervenons dans l'installation et la réalisation d'infrastructures de télécommunication adaptées aux besoins des entreprises.",
 
         image:
-            "/assets/images/services/telecom.jpg",
+            "assets/images/services/telecom.jpg",
 
         page:
             "pages/services/telecom.html",
@@ -58,7 +58,7 @@ const services = {
             "Nous réalisons des installations électriques fiables et sécurisées pour les bâtiments résidentiels, commerciaux et industriels.",
 
         image:
-            "/assets/images/services/electricite.jpg",
+            "assets/images/services/electricite.jpg",
 
         page:
             "pages/services/electricite.html",
@@ -75,7 +75,7 @@ const services = {
             "Nous réalisons des installations électriques fiables et sécurisées pour les bâtiments résidentiels, commerciaux et industriels.",
 
         image:
-            "/assets/images/services/hydraulique.jpg",
+            "assets/images/services/hydraulique.jpg",
 
         page:
             "pages/services/hydraulique.html",
@@ -92,7 +92,7 @@ const services = {
             "Nous réalisons des installations électriques fiables et sécurisées pour les bâtiments résidentiels, commerciaux et industriels.",
 
         image:
-            "/assets/images/services/informatique.jpg",
+            "assets/images/services/informatique.jpg",
 
         page:
             "pages/services/informatique.html",
@@ -109,7 +109,7 @@ const services = {
             "Nous réalisons des installations électriques fiables et sécurisées pour les bâtiments résidentiels, commerciaux et industriels.",
 
         image:
-            "/assets/images/services/solaire.jpg",
+            "assets/images/services/solaire.jpg",
 
         page:
             "pages/services/solaire.html",

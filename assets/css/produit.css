@@ -20,7 +20,7 @@
             rgba(7, 28, 44, 0.82),
             rgba(7, 28, 44, 0.82)
         ),
-        url("/assets/images/logo.png")
+        url("../../assets/images/logo.png")
         center / cover no-repeat;
 }
 
