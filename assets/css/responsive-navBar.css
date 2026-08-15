@@ -1,0 +1,207 @@
+/* ==================================================
+   BOUTON MENU MOBILE
+================================================== */
+
+.menu-toggle {
+
+    display: none;
+
+    width: 45px;
+    height: 45px;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+
+    border: none;
+
+    background: transparent;
+
+    color: #071c2c;
+
+    font-size: 22px;
+
+    cursor: pointer;
+
+    z-index: 1002;
+
+}
+
+
+
+/* ==================================================
+   RESPONSIVE NAVBAR
+================================================== */
+
+@media (max-width: 900px) {
+
+
+    /* CONTENEUR */
+
+    .header-navBar {
+
+        position: relative;
+
+    }
+
+
+    /* CACHER LE BOUTON DEVIS */
+
+    .header-navBar .devis-btn {
+
+        display: none;
+
+    }
+
+
+    /* AFFICHER HAMBURGER */
+
+    .header-navBar .menu-toggle {
+
+        display: flex;
+
+    }
+
+
+    /* ==================================================
+       MENU
+    ================================================== */
+
+    .header-navBar nav {
+
+        position: absolute;
+
+        top: calc(100% + 10px);
+
+        left: 0;
+
+        right: 0;
+
+        width: 100%;
+
+        padding: 10px;
+
+        background: #ffffff;
+
+        box-shadow:
+            0 15px 40px
+            rgba(7, 28, 44, 0.15);
+
+        opacity: 0;
+
+        visibility: hidden;
+
+        transform:
+            translateY(-15px);
+
+        transition:
+            opacity 0.3s ease,
+            transform 0.3s ease,
+            visibility 0.3s ease;
+
+        z-index: 1000;
+
+    }
+
+
+    /* MENU OUVERT */
+
+    .header-navBar nav.active {
+
+        opacity: 1;
+
+        visibility: visible;
+
+        transform:
+            translateY(0);
+
+    }
+
+
+    /* ==================================================
+       UL
+    ================================================== */
+
+    .header-navBar nav ul {
+
+        display: flex;
+
+        flex-direction: column;
+
+        width: 100%;
+
+        margin: 0;
+
+        padding: 0;
+
+        list-style: none;
+
+    }
+
+
+    /* ==================================================
+       LI
+    ================================================== */
+
+    .header-navBar nav ul li {
+
+        width: 100%;
+
+        margin: 0;
+
+    }
+
+
+    /* ==================================================
+       LIENS
+    ================================================== */
+
+    .header-navBar nav ul li a {
+
+        display: flex;
+
+        align-items: center;
+
+        width: 100%;
+
+        min-height: 50px;
+
+        box-sizing: border-box;
+
+        padding: 0 18px;
+
+        color: #071c2c;
+
+        text-decoration: none;
+
+        font-size: 14px;
+
+        font-weight: 600;
+
+        border-bottom:
+            1px solid #eeeeee;
+
+        transition:
+            background 0.3s ease,
+            color 0.3s ease;
+
+    }
+
+
+    .header-navBar nav ul li:last-child a {
+
+        border-bottom: none;
+
+    }
+
+
+    .header-navBar nav ul li a:hover {
+
+        background: #f7f8fa;
+
+        color: #ff4d0a;
+
+    }
+
+}

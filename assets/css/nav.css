@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* =========================================
+   RESET
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #111827;
+}
+
+.header-navBar {
+    width: calc(100% - 60px);
+    max-width: 1290px;
+    height: 80px;
+
+    background-color: #ffffff;
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 30px;
+
+    /* Navbar toujours visible */
+    position: fixed;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    z-index: 1000;
+
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+.logo {
+    width: 125px;
+    height: auto;
+    object-fit: contain;
+
+    margin-right: auto;
+}
+
+
+/* =========================================
+   MENU
+========================================= */
+
+.header-navBar nav {
+    margin-left: auto;
+    margin-right: 45px;
+}
+
+.header-navBar nav ul {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+
+    gap: 42px;
+}
+
+.header-navBar nav ul li {
+    white-space: nowrap;
+}
+
+.header-navBar nav ul li a {
+    text-decoration: none;
+
+    color: #06143a;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+
+.header-navBar nav ul li a:hover {
+    color: #ff4d0a;
+}
+
+
+/* =========================================
+   BOUTON NAVBAR
+========================================= */
+
+.header-navBar > button {
+    border: none;
+
+    background-color: #ff4d0a;
+
+    padding: 17px 31px;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.header-navBar > button:hover {
+    background-color: #e83f00;
+    transform: translateY(-2px);
+}
+
+.header-navBar > button a {
+    text-decoration: none;
+
+    color: #ffffff;
+
+    font-size: 17px;
+    font-weight: 600;
+}

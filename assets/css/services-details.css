@@ -1,0 +1,676 @@
+/* ========================================
+   HERO SERVICE
+======================================== */
+
+.service-hero {
+    min-height: 650px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 120px 7%;
+
+    background:
+        linear-gradient(
+            rgba(7, 28, 44, 0.82),
+            rgba(7, 28, 44, 0.82)
+        ),
+        url("../images/construction.jpg") center/cover no-repeat;
+}
+
+.service-hero-content {
+    max-width: 720px;
+}
+
+.service-hero-content > span {
+    color: #ff4d0a;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+.service-hero h1 {
+    margin: 20px 0;
+
+    color: white;
+
+    font-size: 60px;
+    line-height: 1.1;
+}
+
+.service-hero h1 strong {
+    color: #ff4d0a;
+}
+
+.service-hero p {
+    max-width: 600px;
+
+    color: rgba(255,255,255,0.8);
+
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.service-hero-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+
+    margin-top: 25px;
+    padding: 15px 25px;
+
+    background: #ff4d0a;
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.service-hero-btn:hover {
+    background: white;
+    color: #071c2c;
+}
+
+
+/* ========================================
+   INTRODUCTION
+======================================== */
+
+.service-introduction {
+    padding: 120px 7%;
+
+    background: #f7f8fa;
+}
+
+.service-introduction-container {
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 80px;
+
+    align-items: center;
+}
+
+.service-introduction-image {
+    height: 550px;
+
+    overflow: hidden;
+}
+
+.service-introduction-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: 0.5s;
+}
+
+.service-introduction-image:hover img {
+    transform: scale(1.04);
+}
+
+.service-introduction-content {
+    max-width: 550px;
+}
+
+.section-label {
+    color: #ff4d0a;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+.service-introduction h2 {
+    margin: 18px 0 25px;
+
+    color: #071c2c;
+
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.service-introduction h2 strong {
+    color: #07577a;
+    display: block;
+}
+
+.service-introduction p {
+    color: #777;
+
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.service-check-list {
+    padding: 0;
+    margin-top: 30px;
+
+    list-style: none;
+}
+
+.service-check-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    margin-bottom: 15px;
+
+    color: #071c2c;
+
+    font-weight: 500;
+}
+
+.service-check-list li span {
+    width: 28px;
+    height: 28px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #ff4d0a;
+    color: white;
+
+    font-size: 13px;
+}
+
+
+/* ========================================
+   PRESTATIONS
+======================================== */
+
+.service-offers {
+    padding: 120px 7%;
+
+    background: white;
+}
+
+.service-section-header {
+    max-width: 700px;
+
+    margin: 0 auto 60px;
+
+    text-align: center;
+}
+
+.service-section-header h2 {
+    margin-top: 18px;
+
+    color: #071c2c;
+
+    font-size: 40px;
+}
+
+.service-section-header h2 strong {
+    color: #07577a;
+}
+
+.service-offers-grid {
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+.service-offer-card {
+    padding: 40px;
+
+    border: 1px solid #e8eaed;
+
+    transition: 0.3s;
+}
+
+.service-offer-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #ff4d0a;
+
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+.offer-number {
+    margin-bottom: 25px;
+
+    color: #ff4d0a;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+.service-offer-card h3 {
+    margin-bottom: 15px;
+
+    color: #071c2c;
+
+    font-size: 22px;
+}
+
+.service-offer-card p {
+    color: #777;
+
+    line-height: 1.7;
+}
+
+
+/* ========================================
+   CTA
+======================================== */
+
+.service-cta {
+    padding: 100px 7%;
+
+    background: #071c2c;
+
+    text-align: center;
+}
+
+.service-cta-content {
+    max-width: 750px;
+    margin: auto;
+}
+
+.service-cta span {
+    color: #ff4d0a;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+.service-cta h2 {
+    margin: 20px 0;
+
+    color: white;
+
+    font-size: 45px;
+}
+
+.service-cta p {
+    margin-bottom: 35px;
+
+    color: rgba(255,255,255,0.7);
+
+    line-height: 1.8;
+}
+
+.service-cta a {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 15px 25px;
+
+    background: #ff4d0a;
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: 600;
+}
+
+.service-cta a span {
+    color: white;
+
+    font-size: 18px;
+}
+
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
+@media (max-width: 900px) {
+
+    .service-hero {
+        min-height: 550px;
+    }
+
+    .service-hero h1 {
+        font-size: 45px;
+    }
+
+    .service-introduction-container {
+        grid-template-columns: 1fr;
+    }
+
+    .service-introduction-image {
+        height: 450px;
+    }
+
+    .service-offers-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .service-hero {
+        padding: 100px 6%;
+    }
+
+    .service-hero h1 {
+        font-size: 36px;
+    }
+
+    .service-introduction,
+    .service-offers {
+        padding: 70px 6%;
+    }
+
+    .service-introduction h2,
+    .service-section-header h2 {
+        font-size: 30px;
+    }
+
+    .service-introduction-image {
+        height: 350px;
+    }
+
+    .service-cta {
+        padding: 70px 6%;
+    }
+
+    .service-cta h2 {
+        font-size: 32px;
+    }
+}
+
+
+/* ========================================
+   HERO BTP
+======================================== */
+
+.service-hero-btp {
+    background:
+        linear-gradient(
+            rgba(7, 28, 44, 0.82),
+            rgba(7, 28, 44, 0.82)
+        ),
+        url("/assets/images/services/btp.jpg") center/cover no-repeat;
+}
+
+/* ========================================
+   HERO TELECOM
+======================================== */
+.service-hero-telecom {
+    background:
+        linear-gradient(
+            rgba(7, 28, 44, 0.82),
+            rgba(7, 28, 44, 0.82)
+        ),
+        url("/assets/images/services/telecom_2.jpg") center/cover no-repeat;
+}
+
+/* ========================================
+   HERO CONSTRUCTION METALLIQUE
+======================================== */
+.service-hero-metallique {
+    background:
+        linear-gradient(
+            rgba(7, 28, 44, 0.82),
+            rgba(7, 28, 44, 0.82)
+        ),
+        url("/assets/images/services/metallique.jpg") center/cover no-repeat;
+}
+
+/* ========================================
+   HERO ELECTRICITE
+======================================== */
+.service-hero-electricite {
+    background:
+        linear-gradient(
+            rgba(7, 28, 44, 0.82),
+            rgba(7, 28, 44, 0.82)
+        ),
+        url("/assets/images/services/electricite.jpg") center/cover no-repeat;
+}
+
+/* ========================================
+   HERO HYDRAULIQUE
+======================================== */
+.service-hero-hydraulique {
+    background:
+        linear-gradient(
+            rgba(7, 28, 44, 0.82),
+            rgba(7, 28, 44, 0.82)
+        ),
+        url("/assets/images/services/hydraulique.jpg") center/cover no-repeat;
+}
+
+/* ========================================
+   HERO INFORMATIQUE
+======================================== */
+.service-hero-informatique {
+    background:
+        linear-gradient(
+            rgba(7, 28, 44, 0.82),
+            rgba(7, 28, 44, 0.82)
+        ),
+        url("/assets/images/services/informatique.jpg") center/cover no-repeat;
+}
+
+/* ========================================
+   HERO SOLAIRE
+======================================== */
+.service-hero-solaire {
+    background:
+        linear-gradient(
+            rgba(7, 28, 44, 0.82),
+            rgba(7, 28, 44, 0.82)
+        ),
+        url("/assets/images/services/solaire.jpg") center/cover no-repeat;
+}
+
+/* ========================================
+   HEADER DESCRIPTION
+======================================== */
+
+.service-section-header p {
+    max-width: 650px;
+
+    margin: 20px auto 0;
+
+    color: #777;
+
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+/* ========================================
+   PROCESS
+======================================== */
+
+.service-process {
+    padding: 120px 7%;
+
+    background: #f7f8fa;
+}
+
+.process-grid {
+    max-width: 1200px;
+
+    margin: 60px auto 0;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 25px;
+}
+
+.process-item {
+    padding: 35px 30px;
+
+    background: white;
+
+    border: 1px solid #e8eaed;
+
+    transition: 0.3s;
+}
+
+.process-item:hover {
+    transform: translateY(-6px);
+
+    border-color: #ff4d0a;
+}
+
+.process-number {
+    margin-bottom: 25px;
+
+    color: #ff4d0a;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+.process-item h3 {
+    margin-bottom: 15px;
+
+    color: #071c2c;
+
+    font-size: 21px;
+}
+
+.process-item p {
+    margin: 0;
+
+    color: #777;
+
+    line-height: 1.7;
+}
+
+
+/* ========================================
+   AVANTAGES
+======================================== */
+
+.service-advantages {
+    padding: 120px 7%;
+
+    background: white;
+}
+
+.advantages-container {
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+
+    gap: 100px;
+
+    align-items: center;
+}
+
+.advantages-content h2 {
+    margin: 18px 0 25px;
+
+    color: #071c2c;
+
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.advantages-content h2 strong {
+    display: block;
+
+    color: #07577a;
+}
+
+.advantages-content p {
+    color: #777;
+
+    line-height: 1.8;
+}
+
+.advantages-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 35px;
+}
+
+.advantage {
+    display: flex;
+
+    gap: 20px;
+}
+
+.advantage > span {
+    color: #ff4d0a;
+
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.advantage h3 {
+    margin: 0 0 8px;
+
+    color: #071c2c;
+
+    font-size: 18px;
+}
+
+.advantage p {
+    margin: 0;
+
+    color: #777;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
+@media (max-width: 900px) {
+
+    .process-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .advantages-container {
+        grid-template-columns: 1fr;
+
+        gap: 60px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .process-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .advantages-list {
+        grid-template-columns: 1fr;
+    }
+}
