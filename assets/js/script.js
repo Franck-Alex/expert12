@@ -1,10 +1,10 @@
 const services = {
 
     btp: {
-        title: "BTP",
+        title: "BTP (Génie Civil)",
 
         description:
-            "Nous réalisons des travaux de construction adaptés aux besoins de nos clients, avec une attention particulière portée à la qualité et à la durabilité.",
+            "Construction de batiments (résidentiels, commerciaux, industriels), travaux publics, rénovation et suivi technique de chantiers.",
 
         image:
             "assets/images/services/btp.jpg",
@@ -21,7 +21,7 @@ const services = {
         title: "Construction métallique",
 
         description:
-            "Nous concevons et réalisons des structures métalliques robustes et adaptées aux projets industriels, commerciaux et résidentiels.",
+            "Conception et montage de charpentes métalliques, couvertures de batiments, hangars industriels et chaudronnerie lourde.",
 
         image:
             "assets/images/services/metallique.jpg",
@@ -38,7 +38,7 @@ const services = {
         title: "Télécommunication",
 
         description:
-            "Nous intervenons dans l'installation et la réalisation d'infrastructures de télécommunication adaptées aux besoins des entreprises.",
+            "Déploiement d'infrastructures réseaux, pose de fibreoptique, installation de pylones et maintenance des r&seaux de communication.",
 
         image:
             "assets/images/services/telecom.jpg",
@@ -55,7 +55,7 @@ const services = {
         title: "Électricité",
 
         description:
-            "Nous réalisons des installations électriques fiables et sécurisées pour les bâtiments résidentiels, commerciaux et industriels.",
+            "Travaux d'électricité générale, installation de reseaux basse/haute tension, maintenance industrielle et sécurité électrique.",
 
         image:
             "assets/images/services/electricite.jpg",
@@ -72,7 +72,7 @@ const services = {
         title: "hydraulique",
 
         description:
-            "Nous réalisons des installations électriques fiables et sécurisées pour les bâtiments résidentiels, commerciaux et industriels.",
+            "Travaux de forage, adduction d'eau potable (AEP), construction de chateau d'eau et assainissement des eaux usées.",
 
         image:
             "assets/images/services/hydraulique.jpg",
@@ -89,7 +89,7 @@ const services = {
         title: "Informatique",
 
         description:
-            "Nous réalisons des installations électriques fiables et sécurisées pour les bâtiments résidentiels, commerciaux et industriels.",
+            "Integration de systèmes, développement de solutions numériques sur mesure, sécurité informatique et infogérance.",
 
         image:
             "assets/images/services/informatique.jpg",
@@ -106,7 +106,7 @@ const services = {
         title: "Solaire",
 
         description:
-            "Nous réalisons des installations électriques fiables et sécurisées pour les bâtiments résidentiels, commerciaux et industriels.",
+            "Etude, dimensionnement et indtallation de centrales photovoltaiques, kits solaires pour particuliers et éclairage public autonome.",
 
         image:
             "assets/images/services/solaire.jpg",
