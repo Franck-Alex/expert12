@@ -2,7 +2,7 @@ const whatsappButtons =
     document.querySelectorAll(".whatsapp-btn");
 
 
-const whatsappNumber = "2250150437382";
+const whatsappNumber = "2250565833103";
 
 
 whatsappButtons.forEach(button => {

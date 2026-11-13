@@ -5,12 +5,12 @@
 // Remplace par le vrai numéro WhatsApp d'Expert12
 // Format : 225 + numéro, sans +, espaces ou tirets
 
-const expert12WhatsApp = "2250150437382";
+const expert12WhatsApp = "2250565833103";
 
 
 // Adresse email d'Expert12
 
-const expert12Email = "konanfranckalex12@gmail.com";
+const expert12Email = "manager@experts12.com";
 
 
 

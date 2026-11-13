@@ -2,8 +2,9 @@
    Le site statique prépare un message dans l'application choisie.
    Aucun envoi serveur n'est effectué depuis cette page. */
 (() => {
-  const whatsappNumber = '2250150437382';
-  const contactEmail = 'contact@expert12.com';
+  const whatsappNumber = '2250565833103';
+  const contactEmail = 'manager@experts12.com';
+  const assistanceEmail = 'assistance@experts12.com';
   const form = document.getElementById('contactForm');
   const feedback = document.getElementById('formFeedback');
   if (!form || !feedback) return;
@@ -62,7 +63,7 @@
     const data = getData();
     if (!validate(data)) return;
     const subject = `Demande de contact Experts 12 — ${data.subject}`;
-    const url = `mailto:${contactEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(buildMessage(data))}`;
+    const url = `mailto:${contactEmail}?cc=${encodeURIComponent(assistanceEmail)}&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(buildMessage(data))}`;
     window.location.href = url;
     feedback.textContent = 'Votre application email devrait s’ouvrir avec le message prérempli. Vérifiez-le puis envoyez-le.';
   });
