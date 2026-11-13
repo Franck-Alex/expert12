@@ -1,0 +1,120 @@
+/* =========================================================
+   EXPERTS 12 — CORRECTIFS RESPONSIVE TRANSVERSAUX
+   Chargé après les feuilles de style propres à chaque page.
+   ========================================================= */
+
+html { width: 100%; max-width: 100%; overflow-x: clip; }
+body { width: 100%; max-width: 100%; overflow-x: clip; }
+img, video, iframe, svg { max-width: 100%; }
+.container { min-width: 0; }
+main, section, header, footer, article, nav, .container { min-width: 0; }
+
+@media (max-width: 800px) {
+  .topbar-inner { padding-block: 7px; }
+  .topbar-inner > p:first-child { max-width: 100%; line-height: 1.45; }
+  .nav-wrap { position: relative; gap: 12px; }
+  .brand { min-width: 0; }
+  .brand img { max-width: 100%; }
+  .main-nav { z-index: 100; max-height: calc(100vh - 76px); overflow-y: auto; }
+
+  .projects-masthead { padding-top: 55px; }
+  .projects-masthead-inner,
+  .projects-intro-grid,
+  .projects-method-grid,
+  .detail-info { grid-template-columns: minmax(0, 1fr) !important; }
+  .projects-masthead-copy,
+  .projects-intro-copy,
+  .projects-method-copy { min-width: 0; }
+  .projects-masthead-copy h1 { font-size: clamp(2rem, 8.2vw, 3.25rem); line-height: 1.12; overflow-wrap: anywhere; }
+  .projects-masthead-copy > p:not(.eyebrow),
+  .projects-intro-copy p,
+  .projects-method-copy p { overflow-wrap: anywhere; }
+  .projects-masthead-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+  .projects-masthead-visual { width: calc(100% - 12px); min-width: 0; margin: 12px 0 0; }
+  .projects-masthead-visual > img { width: 100%; object-fit: cover; }
+  .projects-visual-index { right: -10px; max-width: 48%; }
+
+  .realizations-heading { padding-inline: 2px; }
+  .realizations-grid { grid-template-columns: minmax(0, 1fr) !important; }
+  .realization-card,
+  .realization-featured { width: 100%; min-width: 0; grid-column: auto !important; display: flex; flex-direction: column; }
+  .realization-photo,
+  .realization-featured .realization-photo { display: block; width: 100%; height: auto; min-height: 0; aspect-ratio: 16 / 10; }
+  .realization-photo img { width: 100%; height: 100%; object-fit: cover; }
+  .realization-no-photo { width: 100%; min-height: 190px; }
+  .realization-body { width: 100%; min-width: 0; padding: 21px 20px 24px; }
+  .realization-body h3 { font-size: clamp(1.05rem, 5vw, 1.3rem); overflow-wrap: anywhere; }
+  .realization-body p { overflow-wrap: anywhere; }
+  .realization-more { flex-wrap: wrap; }
+
+  .portfolio-status-card { grid-template-columns: 52px minmax(0, 1fr); }
+  .portfolio-status-copy { min-width: 0; }
+  .projects-domain-grid { grid-template-columns: minmax(0, 1fr) !important; }
+  .projects-domain-card { width: 100%; min-width: 0; }
+  .projects-contact-inner { min-width: 0; }
+
+  .detail-hero { padding: 42px 0 48px; }
+  .detail-hero h1 { font-size: clamp(2rem, 8vw, 3.1rem); line-height: 1.12; overflow-wrap: anywhere; }
+  .detail-lead { font-size: 1rem; overflow-wrap: anywhere; }
+  .detail-content { padding: 48px 0 60px; }
+  .detail-info { gap: 28px; }
+  .detail-info aside { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px 14px; }
+  .detail-info aside strong { overflow-wrap: anywhere; }
+  .detail-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 9px; }
+  .detail-gallery-item { min-width: 0; }
+  .detail-bottom { gap: 12px; }
+}
+
+@media (max-width: 480px) {
+  .container { width: calc(100% - 32px) !important; }
+  .topbar { font-size: 9px; letter-spacing: .025em; }
+  .topbar-inner { min-height: 32px; }
+  .nav-wrap { height: 68px; }
+  .brand { width: 138px; flex: 0 1 138px; }
+  .brand img { height: 54px; }
+  .main-nav { top: 68px; left: -16px; right: -16px; padding: 12px 20px 20px; }
+  .menu-toggle { padding: 8px; }
+
+  .projects-masthead { padding: 38px 0 48px; }
+  .projects-masthead-copy h1 { font-size: clamp(1.9rem, 8.5vw, 2.55rem); letter-spacing: -.04em; }
+  .projects-masthead-copy .btn { width: 100%; justify-content: center; }
+  .projects-masthead-actions { align-items: stretch; flex-direction: column; }
+  .projects-masthead-visual,
+  .projects-masthead-visual > img { height: 230px; min-height: 230px; }
+  .projects-visual-caption { left: 12px; bottom: 12px; }
+  .projects-visual-index { right: -7px; bottom: 12px; padding: 12px; }
+  .projects-intro { padding-block: 48px; }
+  .realizations-heading { margin-bottom: 28px; text-align: left; }
+  .realizations-heading h2 { font-size: 1.85rem; }
+  .realization-photo,
+  .realization-featured .realization-photo { aspect-ratio: 4 / 3; }
+  .realization-body { padding: 18px 16px 21px; }
+  .realization-tag { top: 12px; left: 12px; max-width: calc(100% - 24px); font-size: .64rem; }
+  .realization-status { white-space: normal; }
+  .portfolio-status-card { grid-template-columns: minmax(0, 1fr); }
+  .portfolio-status-mark { grid-column: 1; align-items: flex-start; }
+  .projects-domain-card { min-height: 230px; }
+  .projects-method { padding: 55px 0; }
+  .projects-contact-band { padding: 52px 0; }
+  .projects-contact-inner .btn { width: 100%; }
+
+  .detail-hero { padding: 34px 0 42px; }
+  .detail-back { margin-bottom: 24px; font-size: .9rem; }
+  .detail-hero h1 { font-size: clamp(1.85rem, 8.5vw, 2.45rem); }
+  .detail-domain { font-size: .78rem; }
+  .detail-status { line-height: 1.45; }
+  .detail-info aside { grid-template-columns: minmax(0, 1fr); padding: 18px; }
+  .detail-gallery-heading { margin: 45px 0 20px; }
+  .detail-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 8px; }
+  .detail-gallery-item { aspect-ratio: 1 / 1; }
+  .detail-bottom .btn,
+  .detail-bottom .text-link { max-width: 100%; }
+  .footer-bottom { gap: 8px; flex-wrap: wrap; }
+}
+
+@media (max-width: 350px) {
+  .container { width: calc(100% - 24px) !important; }
+  .brand { width: 125px; flex-basis: 125px; }
+  .projects-masthead-copy h1 { font-size: 1.8rem; }
+  .detail-gallery { grid-template-columns: minmax(0, 1fr) !important; }
+}
