@@ -4,7 +4,7 @@
 (() => {
   const whatsappNumber = '2250565833103';
   const contactEmail = 'manager@experts12.com';
-  const assistanceEmail = 'assistance@experts12.com';
+  const copyEmails = ['assistance@experts12.com', 'assistante@experts12.com', 'support@experts12.com'];
   const form = document.getElementById('contactForm');
   const feedback = document.getElementById('formFeedback');
   if (!form || !feedback) return;
